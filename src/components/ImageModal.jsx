@@ -7,7 +7,7 @@ const ImageModal = ({ src, onClose }) => {
     <div className="modal-overlay" onClick={onClose}>
       <div className="modal-content" onClick={(e) => e.stopPropagation()}>
         <button className="close-button" onClick={onClose}>×</button>
-        <img src={src} alt="ampliada" />
+        <img src={src} style={{ width: '500px', height: '500px' }} alt="ampliada" />
       </div>
     </div>
   );

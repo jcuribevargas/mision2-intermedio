@@ -10,9 +10,9 @@ const Page2 = () => {
       <h2>Página 2</h2>
       <p>Texto descriptivo de la página 2.</p>
       <img
-        src="https://via.placeholder.com/300"
+        src="https://i.pravatar.cc/300"
         alt="ejemplo"
-        onClick={() => setModalImg('https://via.placeholder.com/600')}
+        onClick={() => setModalImg("https://i.pravatar.cc/500")}
         style={{ cursor: 'pointer', maxWidth: '100%' }}
       />
       <ImageModal src={modalImg} onClose={() => setModalImg(null)} />
