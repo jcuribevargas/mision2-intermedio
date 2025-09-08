@@ -1,5 +1,5 @@
 // src/components/Header.jsx
-import { Link } from 'react-router-dom';
+import { Link, Links, NavLink } from 'react-router-dom';
 import './Header.css';
 
 const Header = () => (
@@ -10,7 +10,8 @@ const Header = () => (
       <Link to="/page2">Página 2</Link>
       <Link to="/page3">Página 3</Link>
       <Link to="/page4">Página 4</Link>
-      <Link to="/page5">Página 5</Link>
+      <NavLink to="/page5">Página 5</NavLink>
+      
     </nav>
   </header>
 );
